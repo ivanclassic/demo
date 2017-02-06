@@ -5,3 +5,5 @@ FLAG_LAYOUT_NO_LIMITS,虽然可以允许在screen外绘制，但是在4.4及以�
 绘制区域超过本view，需要显示在父view上，需要设置父view的clipChildren为true。
 
 使用Preference的时候需要注意，如果不希望Preference和自己维护的SharePreference冲突，需要setPersistent为false。
+
+Android中的文案内容中的单引号，要特别注意加上转意字符。
