@@ -2,6 +2,6 @@
 
 Just demos about daily work, and new tec.
 
-# TODO List:
+# TODO:
 
 1, Demo of MotionEvent;
