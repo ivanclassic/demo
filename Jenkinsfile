@@ -19,7 +19,7 @@ pipeline {
             steps {
                 sh '''
                     cd LaucnherDemo
-                    ./gradlew check
+                    ./gradlew app:check
                 '''
             }
         }
