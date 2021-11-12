@@ -8,6 +8,11 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
+                sh '''
+                    cd LaucnherDemo
+                    ls -lah
+                    ./gradlew app:assembleDebug
+                '''
             }
         }
     }
