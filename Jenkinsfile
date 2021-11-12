@@ -15,5 +15,13 @@ pipeline {
                 '''
             }
         }
+        stage('Test') {
+            steps {
+                sh '''
+                    cd LaucnherDemo
+                    ./gradlew check
+                '''
+            }
+        }
     }
 }
